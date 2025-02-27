@@ -13,7 +13,8 @@ public class Namecls {
 	@ResponseBody
 	public String printName() {
 		String str = "Brixbit Technology Soluction!...";
-		return str;
+		String s = "from chennai.";
+		return str + " " + s;
 	}
 
 }
