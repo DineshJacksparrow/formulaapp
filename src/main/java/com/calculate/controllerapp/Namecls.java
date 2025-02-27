@@ -12,7 +12,9 @@ public class Namecls {
 	@GetMapping("/name")
 	@ResponseBody
 	public String printName() {
-		return "Welcome";
+		String str = "Brixbit Technology Soluction!...";
+		String s = "from chennai.";
+		return str + " " + s;
 	}
 
 }
